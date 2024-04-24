@@ -1,7 +1,7 @@
 {
   "name": "@m.haseeb/todo-list",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a TODO list app which you can use it by using command line interface",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
@@ -10,6 +10,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT"
+  "author": "Haseeb Mustafa",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
 }
